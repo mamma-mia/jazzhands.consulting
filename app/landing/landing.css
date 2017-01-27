@@ -12,3 +12,9 @@
   margin-top: 3em;
   text-align: center;
 }
+#img{
+  margin: 0 auto !important;
+}
+.task{
+  text-align: center;
+}
