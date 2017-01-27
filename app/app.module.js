@@ -2,6 +2,6 @@
 	'use strict';
 
 	angular
-		.module('jazzhands.consulting', []);
-		
+		.module('jazzhands.consulting', ['ui.router']);
+
 })();

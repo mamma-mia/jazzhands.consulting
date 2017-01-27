@@ -8,12 +8,28 @@
 	<body>
 		<header class="container page-header">
 			<h1>Jazz Hands Consulting</h1>
+			<button type="button" class="btn btn-primary" ui-sref="landing">
+			  Home
+			</button>
+			<button type="button" class="btn btn-default" ui-sref="stages">
+			  Stages
+			</button>
+			<button type="button" class="btn btn-default" ui-sref="proof">
+			  Proof Of Concept
+			</button>
 		</header>
 		<main class="container">
+			<ui-view></ui-view>
 
 		</main>
 
 		<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js" charset="utf-8"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0-beta.3/angular-ui-router.js" charset="utf-8"></script>
 		<script src="/app/app.module.js" charset="utf-8"></script>
+		<script src="/app/app.config.js" charset="utf-8"></script>
+		<script src="/app/landing/landing.component.js" charset="utf-8"></script>
+		<script src="/app/stages/stages.component.js" charset="utf-8"></script>
+		<script src="/app/proof/proof.component.js" charset="utf-8"></script>
+
 	</body>
 </html>
