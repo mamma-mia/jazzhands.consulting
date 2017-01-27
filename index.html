@@ -7,19 +7,19 @@
 		<link rel="stylesheet" href="/app/landing/landing.css">
 	</head>
 	<body>
-		<header class="container page-header">
+		<header class="container page-header text-center">
 			<h1>Jazz Hands Consulting</h1>
 			<button type="button" class="btn btn-primary" ui-sref="landing">
 			  Home
+			</button>
+			<button type="button" class="btn btn-default" ui-sref="secret">
+			 Our Secret Sauce!
 			</button>
 			<button type="button" class="btn btn-default" ui-sref="stages">
 			  Stages
 			</button>
 			<button type="button" class="btn btn-default" ui-sref="proof">
 			  Proof Of Concept
-			</button>
-			<button type="button" class="btn btn-default" ui-sref="secret">
-			 Our Secret Sauce!
 			</button>
 		</header>
 		<main class="container">
@@ -32,6 +32,7 @@
 		<script src="/app/app.module.js" charset="utf-8"></script>
 		<script src="/app/app.config.js" charset="utf-8"></script>
 		<script src="/app/landing/landing.component.js" charset="utf-8"></script>
+		<script src="/app/stages/stages.controller.js" charset="utf-8"></script>
 		<script src="/app/stages/stages.component.js" charset="utf-8"></script>
 		<script src="/app/proof/proof.component.js" charset="utf-8"></script>
 		<script src="/app/secretSauce/secretSauce.component.js" charset="utf-8"></script>

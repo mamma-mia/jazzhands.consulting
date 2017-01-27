@@ -1,29 +1,14 @@
+<div class="pull-right">
+	<button ng-click="$ctrl.nextStep()" type="button" class="btn btn-default">
+	  Next Step
+	</button>
+</div>
 <section>
-	<h2>Stage 1: Recruitment</h2>
-	<p>Volunteers will be recruited from around the world to be trained in the Jazz Hands Forever™ methodology.</p>
+	<h2>{{$ctrl.currentStage.title}}</h2>
+	<p>{{$ctrl.currentStage.description}}</p>
 	<div class="row">
 		<div class="col-sm-12">
-			<img class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/originals/40/43/8a/40438a691a06af2cda671fe287b68579.jpg" alt="">
-		</div>
-	</div>
-</section>
-<hr>
-<section>
-	<h2>Stage 2: Training</h2>
-	<p>Recruits will be put through a 2 week training program where they will master the Jazz Hands Forever™ methodology.</p>
-	<div class="row">
-		<div class="col-sm-12">
-			<img class="img-responsive" src="https://tax.thomsonreuters.com/wp-content/images/cs-professional-suite/banners/training-and-consulting-banner.jpg" alt="">
-		</div>
-	</div>
-</section>
-<hr>
-<section>
-	<h2>Stage 3: Bussed to Rotation</h2>
-	<p>Upon graduating the training program, recruits are bussed to the border to begin their 4 week rotation.</p>
-	<div class="row">
-		<div class="col-sm-12">
-			<img class="img-responsive" src="http://www.partybusgroup.com/wp-content/uploads/2015/09/1.jpg" alt="">
+			<img class="img-responsive" ng-src="{{$ctrl.currentStage.image}}" alt="" style="width:100%;height:auto;">
 		</div>
 	</div>
 </section>
