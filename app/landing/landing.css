@@ -15,6 +15,10 @@
 #img{
   margin: 0 auto !important;
 }
-.task{
+.result{
   text-align: center;
+}
+.padding{
+  margin-top: 2em;
+  margin-bottom: 2em
 }
