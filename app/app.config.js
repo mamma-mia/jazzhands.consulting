@@ -19,6 +19,11 @@
                 name: 'proof',
                 url: '/proof',
                 component: 'proof'
+            });
+            $stateProvider.state({
+                name: 'secret',
+                url: '/secret',
+                component: 'secretSauce'
             })
 
 
